@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Kingsukh Guest House</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- swiper js cdn link -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <!-- header -->
+
+   <header class="header">
+
+      <a href="#" class="logo"> </i> Kingsukh Guest House</a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#room">room</a>
+         <a href="#gallery">gallery</a>
+         <a href="#review">review</a>
+         <a href="#faq">faq</a>
+         <a href="#reservation" class="btn"> book now</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </header>
+
+   <!-- end -->
+
+   <!-- home -->
+
+   <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(image/header.jpg) no-repeat;">
+               <div class="content">
+                  <h3>Make Yourself At Home
+                     In Our Guest House.</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(image/ayodhya.webp) no-repeat;">
+               <div class="content">
+                  <h3>Make Yourself At Home
+                     In Our Guest House.</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- availability -->
+
+   <section class="availability">
+
+      <form action="">
+
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input id="datei"  type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input id="dateo" type="date" class="input">
+         </div>
+
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" id="adult" class="input">
+               <option value="1">1 adults</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>children <span>*</span></p>
+            <select name="child" id="child" class="input">
+               <option value="1">1 child</option>
+               <option value="2">2 child</option>
+               <option value="3">3 child</option>
+               <option value="4">4 child</option>
+               <option value="5">5 child</option>
+               <option value="6">6 child</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" id="room" class="input">
+               <option value="1">1 rooms</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+
+         <button   class="btn" onclick="sendToWhatsapp()">check availability</button>
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+
+   <!-- about -->
+
+   <section class="about" id="about">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="image/out.jpg" alt="">
+         </div>
+
+         <div class="content">
+            <h3>about us</h3>
+            <h3>The Best Holidays Start Here!</h3>
+            <p>Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath
+               Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the
+               captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our
+               verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and
+               heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your
+               stay.</p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- room -->
+
+   <section class="room" id="room">
+
+      <h1 class="heading">our rooms</h1>
+
+      <div class="swiper room-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">₹1500/night</span>
+                  <img src="image/room1.jpg" alt="">
+
+               </div>
+               <div class="content">
+                  <h3>exclusive room</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nisi.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#reservation"  class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">₹1000/night</span>
+                  <img src="image/small.jpg" alt="">
+
+               </div>
+               <div class="content">
+                  <h3>Cozy Haven Room</h3>
+                  <p>Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#reservation"  class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">₹1500/night</span>
+                  <img src="image/large.jpg" alt="">
+
+               </div>
+               <div class="content">
+                  <h3>Spacious Serenity Suite</h3>
+                  <p>Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy
+                     elegance.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#reservation"  class="btn">book now</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">₹1500/night</span>
+                  <img src="image/recep.jpg" alt="">
+
+               </div>
+               <div class="content">
+                  <h3>Confrence room</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nisi.</p>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#reservation"  class="btn">book now</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- services -->
+
+   <section class="services">
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="image/security.png" alt="">
+            <h3>High Class Security</h3>
+         </div>
+
+         <div class="box">
+            <img src="image/service2.png" alt="">
+            <h3>food & drink</h3>
+         </div>
+
+         <div class="box">
+            <img src="image/service3.png" alt="">
+            <h3>restaurant</h3>
+         </div>
+
+         <div class="box">
+            <img src="image/map.png" alt="">
+            <h3>Tourist Guide</h3>
+         </div>
+
+         <div class="box">
+            <img src="image/service5.png" alt="">
+            <h3>beauty spa</h3>
+         </div>
+
+         <div class="box">
+            <img src="image/service6.png" alt="">
+            <h3>resort beach</h3>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- gallery -->
+
+   <section class="gallery" id="gallery">
+
+      <h1 class="heading">our gallery</h1>
+
+      <div class="swiper gallery-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <img src="image/ayodhya.webp" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/large.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/room1.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/service.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/small.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/mithonDam.webp" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/1.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="image/baranti.webp" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- review -->
+
+   <section class="review" id="review">
+
+      <div class="swiper review-slider">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="image/pic-1.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="image/pic-2.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="image/pic-3.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="image/pic-4.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="image/pic-5.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">client's review</h2>
+               <i class="fas fa-quote-right"></i>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda eligendi sint dolorum, magni esse
+                  suscipit quia ab quos neque repudiandae omnis quo aliquam dolore temporibus libero vel voluptas velit
+                  porro!</p>
+               <div class="user">
+                  <img src="image/pic-6.png" alt="">
+                  <div class="user-info">
+                     <h3>john deo</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- faq -->
+
+   <section class="faqs" id="faq">
+
+      <h1 class="heading">frequently asked questions</h1>
+
+      <div class="row">
+
+         <div class="image">
+            <img src="image/FAQs.gif" alt="">
+         </div>
+
+         <div class="content">
+
+            <div class="box active">
+               <h3>What are the check-in and check-out times?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+            <div class="box">
+               <h3>Can I cancel or modify my reservation? What is the cancellation policy?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+            <div class="box">
+               <h3>How do I get to the guest house from the airport or train station?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+            <div class="box">
+               <h3>How can I make a reservation?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+            <div class="box">
+               <h3>what are payment methods?</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam cupiditate mollitia.</p>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- reservation -->
+
+   <section class="reservation" id="reservation">
+
+      <h1 class="heading">book now</h1>
+
+      <form action="">
+
+         <div class="container">
+
+            <div class="box">
+               <p>name <span>*</span></p>
+               <input type="text"id="name" class="input" placeholder="Your Name">
+            </div>
+
+            <div class="box">
+               <p>email <span>*</span></p>
+               <input type="email"id="email" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="box">
+               <p>check in <span>*</span></p>
+               <input type="date"id="date1" class="input">
+            </div>
+
+            <div class="box">
+               <p>check out <span>*</span></p>
+               <input type="date"id="date2" class="input">
+            </div>
+
+            <div class="box">
+               <p>adults <span>*</span></p>
+               <select name="adults"id="adults" class="input">
+                  <option value="1">1 adults</option>
+                  <option value="2">2 adults</option>
+                  <option value="3">3 adults</option>
+                  <option value="4">4 adults</option>
+                  <option value="5">5 adults</option>
+                  <option value="6">6 adults</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>children <span>*</span></p>
+               <select name="children"id="children" class="input">
+                  <option value="1">1 child</option>
+                  <option value="2">2 child</option>
+                  <option value="3">3 child</option>
+                  <option value="4">4 child</option>
+                  <option value="5">5 child</option>
+                  <option value="6">6 child</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>rooms <span>*</span></p>
+               <select name="rooms"id="rooms" class="input">
+                  <option value="1">1 rooms</option>
+                  <option value="2">2 rooms</option>
+                  <option value="3">3 rooms</option>
+                  <option value="4">4 rooms</option>
+                  <option value="5">5 rooms</option>
+                  <option value="6">6 rooms</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>room type <span>*</span></p>
+               <select name="type"id="type" class="input">
+                  <option value="exclusive room">exclusive room</option>
+                  <option value="spacious serenity room">spacious serenity room</option>
+                  <option value="cozy Haven room">cozy Haven room</option>
+                  <option value="confrence room">confrence room</option>
+               </select>
+            </div>
+
+         </div>
+
+         <button onclick="sendtoWhatsapp()"  class="btn">Book Now</button>
+
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- footer -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>Kingsukh Guest House</h3>
+            <h3 class="temp" style="color: white;">Discover a world of comfort, luxury, and adventure as you explore our
+               curated selection of hotels, making
+               every moment of your getaway truly extraordinary.</h3>
+         </div>
+
+
+         <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> about</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> rooms</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> gallery</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reservation</a>
+         </div>
+
+         <div class="box">
+            <h3>OUR SERVICES</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Concierge Assistance</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Flexible Booking Options</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Airport Transfers</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Wellness & Recreation</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Travel Tips & Guides</a>
+         </div>
+
+         <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +91 9007062180 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> kkghosh0099@gmail.com</a>
+            <a href="#"> <i class="fas fa-map"></i>Beside Barshal Water Tank,<br> Manpur, Barhanti, West Bengal
+               723156</a>
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7313.003491353379!2d86.85979!3d23.586332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e0!3m2!1sen!2sin!4v1720845771763!5m2!1sen!2sin"
+               width="310" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+
+      </div>
+
+
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-youtube"></a>
+      </div>
+
+
+      <div class="credit"> Copyright © 2024 <span>Kingsukh Guest House</span> . All rights reserved.</div>
+
+   </section>
+
+   <!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <script src="script.js"></script>
+   
+   
+</body>
+
+</html>
